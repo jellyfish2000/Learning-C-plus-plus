@@ -1,0 +1,44 @@
+#include <iostream>
+
+int main(){
+    
+    //arithmetic operators = return the result of a specific 
+    //                      arithmetic operation ( + - * /)
+
+    int students = 21;
+
+    //students = students + 1;
+    //students += 1;
+    students++;
+
+    //students = student - 2;
+    //students -= 2;
+    students--;
+
+    students = students * 2;
+    students *= 2;
+
+    students = students/2;
+    students /=2;;
+
+    int remainder = students % 2;
+
+
+
+    std::cout << remainder << '\n';
+    
+    std::cout << students << '\n';
+
+    // parenthsis
+    // multiplication & division
+    // addition & subtraction
+
+    double something = 6 - (5 + 4) * 3 / 2;
+    std::cout << something << '\n';
+    
+
+
+    return 0 ; 
+
+
+}
